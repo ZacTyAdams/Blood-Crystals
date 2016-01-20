@@ -1,0 +1,26 @@
+﻿Build started 12/10/2014 12:24:16 AM.
+     1>Project "C:\Users\Zac\Documents\Game Programming Repo\4210.0\Game Programing\Blood Crystasl\Engine\Engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\DirectXTK\Inc /I..\tools /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp renderer.cpp Shader.cpp Sound.cpp Sprite.cpp SpriteMan.cpp Timer.cpp
+         Timer.cpp
+         SpriteMan.cpp
+         Sprite.cpp
+         Sound.cpp
+         Shader.cpp
+         renderer.cpp
+         Main.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Zac\Documents\Game Programming Repo\4210.0\Game Programing\Blood Crystasl\Engine\Debug\Engine.lib" /NOLOGO Debug\Main.obj
+         Debug\renderer.obj
+         Debug\Shader.obj
+         Debug\Sound.obj
+         Debug\Sprite.obj
+         Debug\SpriteMan.obj
+         Debug\Timer.obj
+         Engine.vcxproj -> C:\Users\Zac\Documents\Game Programming Repo\4210.0\Game Programing\Blood Crystasl\Engine\Debug\Engine.lib
+     1>Done Building Project "C:\Users\Zac\Documents\Game Programming Repo\4210.0\Game Programing\Blood Crystasl\Engine\Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:39.09

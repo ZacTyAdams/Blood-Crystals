@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="Advance Wars Tile Set" tilewidth="64" tileheight="64" margin="1">
+  <image source="Advance Wars Tile Set.png" width="2048" height="960"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmclOAzEMhkOXC3BGiBuUpSwvwJmtwAtwZnmSvjiuVEuWZXucxElbxOFXUiWd5vdne6qZUUppxHQOugBdgq6E9VzdgebOvVNjjZ5pdc0bImn/A+gR9AR6DvBxtJbXh+aFnsnj4xP0BfoG/YCWHXlYXOiZbkEHRNa1lkw9fXhyy5v70yAvkT5obuXm/jbxoLlF5xHX7uljk/r3sV36Sz5eQK+KFp3OUXsf5PcsqsNOrCLug5pOkz/njvdSugd9KKPXh/X/rTbnWvNoyaLUR6t41sr7X5jm1YmQV+MUr7ek9yau90weGpezBlrlyn7SexTXdQDXFjww51fzibJnEnD2Hjzm6/lM2TNb+4ny0ZoHjX9LLq150PhrXHaJh8UlgkkvHhaXCCab6ld8rZZJax5aXfC1Wiab5EHX6bhLPMZsnY4lfnr3KxR6kThofix/rXkMiXLAM+Gc+7HqKDfWQ/nu4ZF7D8HzowdpvzfGPJ9reEjXsPoVX5P2eznwfO7Jw6Pc3PfykJ7zLAp50Jhrfr0xzpH0nAef71iMPDGX+hhdy2FCf9v7HatmvD54Hyupj1p5asZbC1LfKuGQy2KIh7c+tDxrVR/RPOgZ6Ui9l9SHh5fmo4QHPeNM2R/Jw/JSwwN71Ix9lv6TRfBoWR8YI6k2JB5SHvI1KZY4anP0oV1/qF9hrOlnLfe0PORrUixx1OboQ7u+p19ZeywGPKY5I/1+Do/S5+kWAx7TnJF+38uj5p1AZL+yNPSOsPZ9oZX3kbLeEUa8LyzJfW9taD3Qqo/S92wlue+tDT4f6os1Pn4B8vKQJg==
+  </data>
+ </layer>
+</map>

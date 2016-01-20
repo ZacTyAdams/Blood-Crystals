@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="Advance Wars Tile Set" tilewidth="64" tileheight="64" margin="1">
+  <image source="Advance Wars Tile Set.png" width="2048" height="960"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt3UuOEzEQBmB3RFZhiXhK0MthQEJsBjEXYAAJsYOcBPaZA3AIWLGDk8ARkEDiDCzAVrqFZdluP6rssrsWv2YmD7e7vnH6EaczCiFGgrk08m6oE7Mf2NFrsAmIetx3mW8Bjxstfy8tz9bHkH5hxdYHiD5BenyV+ZLZH9cyKVm4PCDbtXnoNQqtY6jfUlu+fta20PuUU+8Yk5S6Qnn4/geoecT0J+Y1F8LDV8deE+rxU+ZX5HNDPcYV1j2kZr7HXZH7ZNsBx4NN3LXz3Z/Tdkit2SSuptgem4jHrT05+4fsge+C5cEmaSbYHmyC6xdbX/Zox4Ot2KOnLHn8SbBiEzyP/RDfJpvgeZwneOgm7ALrocaHun+b2D4lE2rvqaR4nA/5NaVgQvE9rlgPdfsewGMD8HyI9VQ/U8d5yX6+lTV/Oth/vgHymE1quaj1fC3ziriJ7f1zX2r3N2c9H8s8Krzcm47/c99Pvc7bjj1q9yG0n646swdNj9p9hFrPFkxC5zP04ELdI2a+Ty8elE10j6V9wJFNinqEPL4HD8omufMTWw5lE2iPcaXGVD1Ml9j2/8qIxPP8rafE61WsyV1pcY89SJlQPufXg8cmYTk9mOSeT6RmsraU3t8d2YSUx6bC8lpK68eDve0bt+7R275x6x69hbcftMIetFLLY07t9aeWUh4vZJ5PuWCP6h4fZU6nfGIP9mgk+vWWSnl8Zo8gD8z6lB4f2O336oG1TKh2D516PJDZTbm/Mo/Y62aNooyJXqu1eYTOZ+nRA7pNqNcsih7msqCXh9Em5DbEdh2/S+N+vf/YJiU8oPt8ADQxDWx/m+uAZWKzgFwOVr+hTVw+vvmiGOumt9mShW6C2f7s4/OAWk+zPejaYVuUMinxeZxeLHQTLJcaHpAOpS2wTbA/H4XhkNsnyibY13vt1cI0gdwfprJumMbYc4EPlqzFIzVU5mfHHJ9zynjYfNiDTpaOzzn1TNiDTtiDVtiDVtiDVpRH6TkUHByPraBzjNVibHMc1N9qjvMN8X++s+t3Wy4IrFfLsXnsprrvFn43c1XmRPAYyfUwj89jX6/m82UPJ4/a69RDdBf2oJGUa0Dp55PZA8ckZnywB75H6nNnDz5+oefBJuxhZr5efu1+UPGobVLjevnsARP1+esfgt55h548ngzHa6zdHuzXXptvvzUc+37qSa39xp48zO+C821P9M/PmeeAevGoaaFifhdcyvZkHjete9S2ULkz5LfRssf1KbUd5qR+V2IJD9//rH5fqod+voTK+Ej5LtGSHq466dtfKA8KJpTHh88EYt6veT6RggnF8WHWuYQHlf1dqtvzkLnvPXrkjg91zP5y8ngmjsfpZwLm2D1kDKTW0Hz/g4pHzvZDt9BzZrktZezEjBFIj5omqePDZQHpYTNxPSa1PZdHLZPU8XHNEzV35gOQh62GZq2wPFTeD2WzT3ye79zib8ttJ5nr5qrXnH9KnLeh
+  </data>
+ </layer>
+</map>

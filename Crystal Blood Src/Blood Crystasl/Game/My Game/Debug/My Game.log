@@ -1,0 +1,53 @@
+﻿Build started 12/10/2014 2:28:23 PM.
+     1>Project "C:\Users\Zac\Documents\Game Programming Repo\4210.0\Game Programing\Blood Crystasl\Game\My Game\My Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\DirectXTK\Inc /I..\..\Engine /I..\..\Tools /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Base.cpp Map.cpp MyGame.cpp RenderWorld.cpp unit.cpp
+         RenderWorld.cpp
+         MyGame.cpp
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\mygame.cpp(226): warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\mygame.cpp(227): warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\mygame.cpp(232): warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\mygame.cpp(233): warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\mygame.cpp(238): warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\mygame.cpp(239): warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\mygame.cpp(244): warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\mygame.cpp(245): warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\mygame.cpp(250): warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\mygame.cpp(251): warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\mygame.cpp(256): warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\mygame.cpp(257): warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\mygame.cpp(1085): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\mygame.cpp(1086): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Map.cpp
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\map.cpp(12): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\map.cpp(211): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\map.cpp(131): warning C4101: 'damageB' : unreferenced local variable
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\map.cpp(130): warning C4101: 'atr' : unreferenced local variable
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\map.cpp(132): warning C4101: 'txt' : unreferenced local variable
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\map.cpp(436): warning C4101: 'pos' : unreferenced local variable
+         Base.cpp
+         Generating Code...
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\map.cpp(225): warning C4715: 'map::attackUnit' : not all control paths return a value
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\mygame.cpp(1148): warning C4715: 'clickLeveler' : not all control paths return a value
+         Compiling...
+         unit.cpp
+         Generating Code...
+     1>c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\unit.cpp(96): warning C4715: 'unit::returnMoveDistance' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Zac\Documents\Game Programming Repo\4210.0\Game Programing\Blood Crystasl\Game\Debug\My Game.exe" /INCREMENTAL /NOLOGO Engine.lib Tools.lib DirectXTKAudioWin8.lib D3DCompiler.lib DXGI.lib D3D11.lib Winmm.lib DirectXTK.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Zac\Documents\Game Programming Repo\4210.0\Game Programing\Blood Crystasl\Game\Debug\My Game.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Zac\Documents\Game Programming Repo\4210.0\Game Programing\Blood Crystasl\Game\Debug\My Game.lib" /MACHINE:X86 Debug\gamedefines.obj
+         Debug\Map.obj
+         Debug\MapTile.obj
+         Debug\MyGame.obj
+         Debug\ObjectWorld.obj
+         Debug\RenderWorld.obj
+         Debug\Base.obj
+         Debug\unit.obj
+     1>ObjectWorld.obj : warning LNK4020: a type record in 'c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\debug\vc120.pdb' is corrupted; some symbols and types may not be accessible from the debugger
+     1>MapTile.obj : warning LNK4020: a type record in 'c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\debug\vc120.pdb' is corrupted; some symbols and types may not be accessible from the debugger
+     1>gamedefines.obj : warning LNK4020: a type record in 'c:\users\zac\documents\game programming repo\4210.0\game programing\blood crystasl\game\my game\debug\vc120.pdb' is corrupted; some symbols and types may not be accessible from the debugger
+         My Game.vcxproj -> C:\Users\Zac\Documents\Game Programming Repo\4210.0\Game Programing\Blood Crystasl\Game\Debug\My Game.exe
+     1>Done Building Project "C:\Users\Zac\Documents\Game Programming Repo\4210.0\Game Programing\Blood Crystasl\Game\My Game\My Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.50

@@ -1,0 +1,397 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Crystal Blood" />
+  <renderer width="1152" height="640" />
+
+  <!-- image file names -->
+  <images>
+    <image name="background" src="Images\\background.png" />
+    <image name="splash" src="Images\\SplashBackground.jpg" />
+  </images>
+
+  <!-- sprites -->
+  <sprites>
+    
+    <!-- Numbers -->
+    <sprite name="0" file="Images\\Numbers\\0.png"/>
+    <sprite name="1" file="Images\\Numbers\\1.png"/>
+    <sprite name="2" file="Images\\Numbers\\2.png"/>
+    <sprite name="3" file="Images\\Numbers\\3.png"/>
+    <sprite name="4" file="Images\\Numbers\\4.png"/>
+    <sprite name="5" file="Images\\Numbers\\5.png"/>
+    <sprite name="6" file="Images\\Numbers\\6.png"/>
+    <sprite name="7" file="Images\\Numbers\\7.png"/>
+    <sprite name="8" file="Images\\Numbers\\8.png"/>
+    <sprite name="9" file="Images\\Numbers\\9.png"/>
+    <sprite name="10" file="Images\\Numbers\\10.png"/>
+    
+    <sprite name="ex0" file="Images\\Explosion\\ex0.png"/>
+    <sprite name="ex1" file="Images\\Explosion\\ex1.png"/>
+    <sprite name="ex2" file="Images\\Explosion\\ex2.png"/>
+    <sprite name="ex3" file="Images\\Explosion\\ex3.png"/>
+    <sprite name="ex4" file="Images\\Explosion\\ex4.png"/>
+    <sprite name="ex5" file="Images\\Explosion\\ex5.png"/>
+    <sprite name="ex6" file="Images\\Explosion\\ex6.png"/>
+    <sprite name="ex7" file="Images\\Explosion\\ex7.png"/>
+    <sprite name="ex8" file="Images\\Explosion\\ex8.png"/>
+    <sprite name="ex9" file="Images\\Explosion\\ex9.png"/>
+    <sprite name="ex10" file="Images\\Explosion\\ex10.png"/>
+    <sprite name="ex11" file="Images\\Explosion\\ex11.png"/>
+    <sprite name="ex12" file="Images\\Explosion\\ex12.png"/>
+    <sprite name="ex13" file="Images\\Explosion\\ex13.png"/>
+    <sprite name="ex14" file="Images\\Explosion\\ex14.png"/>
+    <sprite name="ex15" file="Images\\Explosion\\ex15.png"/>
+    <sprite name="ex16" file="Images\\Explosion\\ex16.png"/>
+    <sprite name="ex17" file="Images\\Explosion\\ex17.png"/>
+    <sprite name="ex18" file="Images\\Explosion\\ex18.png"/>
+    <sprite name="ex19" file="Images\\Explosion\\ex19.png"/>
+    <sprite name="ex20" file="Images\\Explosion\\ex20.png"/>
+    <sprite name="ex21" file="Images\\Explosion\\ex21.png"/>
+    <sprite name="ex22" file="Images\\Explosion\\ex22.png"/>
+    <sprite name="ex23" file="Images\\Explosion\\ex23.png"/>
+    
+    <sprite name="cursor" file="Images\\Cursor.png"/>
+    <sprite name="cursor_hand" file="Images\\cursorHand.png"/>
+    <sprite name="start" file="Images\\button.png"/>
+    <sprite name="hoverStart" file="Images\\hoverButton.png"/>
+    <sprite name ="endTurn" file="Images\\Sidebar\\endTurn.png"/>
+    <sprite name ="endTurnHover" file="Images\\Sidebar\\endTurnHover.png"/>
+    <sprite name ="attack" file="Images\\Sidebar\\attack.png"/>
+    <sprite name ="attackHover" file="Images\\Sidebar\\attackHover.png"/>
+    <sprite name ="attackActive" file="Images\\Sidebar\\attackActive.png"/>
+    <sprite name ="wait" file="Images\\Sidebar\\wait.png"/>
+    <sprite name ="waitHover" file="Images\\Sidebar\\waitHover.png"/>
+    <sprite name ="waitActive" file="Images\\Sidebar\\waitActive.png"/>
+    <sprite name ="info" file="Images\\Sidebar\\info.png"/>
+    <sprite name ="infoHover" file="Images\\Sidebar\\infoHover.png"/>
+    <sprite name ="side1" file="Images\\Sidebar\\Player1Side.png"/>
+    <sprite name ="side2" file="Images\\Sidebar\\Player2Side.png"/>
+    <sprite name ="title" file="Images\\Title.png"/>
+    <sprite name ="blood" file="Images\\Blood.png"/>
+            
+    <sprite name ="capture" file="Images\\Sidebar\\capture.png"/>
+    <sprite name ="capHover" file="Images\\Sidebar\\capHover.png"/>
+    <sprite name ="capActive" file="Images\\Sidebar\\capActive.png"/>
+    
+    <sprite name ="infoPane" file="Images\\infoPane\\infoPane.png"/>
+    <sprite name ="attack" file="Images\\infoPane\\attack.png"/>
+    <sprite name ="defense" file="Images\\infoPane\\defense.png"/>
+    <sprite name ="move" file="Images\\infoPane\\move.png"/>
+    <sprite name ="health" file="Images\\infoPane\\health.png"/>
+
+    <sprite name ="attack0" file="Images\\attack0.png"/>
+    <sprite name ="attack1" file="Images\\attack1.png"/>
+    <sprite name ="attack2" file="Images\\attack2.png"/>
+    <sprite name ="attack3" file="Images\\attack3.png"/>
+
+    <sprite name ="win1" file="Images\\win1.png"/>
+    <sprite name ="win2" file="Images\\win2.png"/>
+
+    <sprite name ="crosshair" file="Images\\crosshair.png"/>
+
+    <!-- bloodCrystle -->
+    <sprite name ="bCrystle0" file="Images\\bc\\bloodCrystle0.png"/>
+    <sprite name ="bCrystle1" file="Images\\bc\\bloodCrystle1.png"/>
+    <sprite name ="bCrystle2" file="Images\\bc\\bloodCrystle2.png"/>
+    <sprite name ="bCrystle3" file="Images\\bc\\bloodCrystle3.png"/>
+    <sprite name ="bCrystle4" file="Images\\bc\\bloodCrystle4.png"/>
+
+    <!-- blue units-->
+    <!-- blue soldier -->  
+    <sprite name="BSidle0" file="Images\\blueUnit\\Soldier\\idle0.png"/>
+    <sprite name="BSidle1" file="Images\\blueUnit\\Soldier\\idle1.png"/>
+    <sprite name="BSidle2" file="Images\\blueUnit\\Soldier\\idle2.png"/>
+    <sprite name="BSidle3" file="Images\\blueUnit\\Soldier\\idle3.png"/>
+  
+    <sprite name="BSright0" file="Images\\blueUnit\\Soldier\\right0.png"/>
+    <sprite name="BSright1" file="Images\\blueUnit\\Soldier\\right1.png"/>
+    <sprite name="BSright2" file="Images\\blueUnit\\Soldier\\right2.png"/>
+    <sprite name="BSright3" file="Images\\blueUnit\\Soldier\\right3.png"/>
+
+    <sprite name="BSleft0" file="Images\\blueUnit\\Soldier\\left0.png"/>
+    <sprite name="BSleft1" file="Images\\blueUnit\\Soldier\\left1.png"/>
+    <sprite name="BSleft2" file="Images\\blueUnit\\Soldier\\left2.png"/>
+    <sprite name="BSleft3" file="Images\\blueUnit\\Soldier\\left3.png"/>
+
+    <sprite name="BSup0" file="Images\\blueUnit\\Soldier\\up0.png"/>
+    <sprite name="BSup1" file="Images\\blueUnit\\Soldier\\up1.png"/>
+    <sprite name="BSup2" file="Images\\blueUnit\\Soldier\\up2.png"/>
+    <sprite name="BSup3" file="Images\\blueUnit\\Soldier\\up3.png"/>
+
+    <sprite name="BSdown0" file="Images\\blueUnit\\Soldier\\down0.png"/>
+    <sprite name="BSdown1" file="Images\\blueUnit\\Soldier\\down1.png"/>
+    <sprite name="BSdown2" file="Images\\blueUnit\\Soldier\\down2.png"/>
+    <sprite name="BSdown3" file="Images\\blueUnit\\Soldier\\down3.png"/>
+
+    <sprite name="BSmoved0" file="Images\\blueUnit\\Soldier\\moved0.png"/>
+    <sprite name="BSmoved1" file="Images\\blueUnit\\Soldier\\moved1.png"/>
+    <sprite name="BSmoved2" file="Images\\blueUnit\\Soldier\\moved2.png"/>
+    <sprite name="BSmoved3" file="Images\\blueUnit\\Soldier\\moved3.png"/>
+
+    <!-- blue heavy unit -->
+    <sprite name="BHidle0" file="Images\\blueUnit\\Heavy\\idle0.png"/>
+    <sprite name="BHidle1" file="Images\\blueUnit\\Heavy\\idle1.png"/>
+
+    <sprite name="BHright0" file="Images\\blueUnit\\Heavy\\right0.png"/>
+    <sprite name="BHright1" file="Images\\blueUnit\\Heavy\\right1.png"/>
+    <sprite name="BHright2" file="Images\\blueUnit\\Heavy\\right2.png"/>
+    <sprite name="BHright3" file="Images\\blueUnit\\Heavy\\right3.png"/>
+
+    <sprite name="BHleft0" file="Images\\blueUnit\\Heavy\\left0.png"/>
+    <sprite name="BHleft1" file="Images\\blueUnit\\Heavy\\left1.png"/>
+    <sprite name="BHleft2" file="Images\\blueUnit\\Heavy\\left2.png"/>
+    <sprite name="BHleft3" file="Images\\blueUnit\\Heavy\\left3.png"/>
+
+    <sprite name="BHup0" file="Images\\blueUnit\\Heavy\\up0.png"/>
+    <sprite name="BHup1" file="Images\\blueUnit\\Heavy\\up1.png"/>
+    <sprite name="BHup2" file="Images\\blueUnit\\Heavy\\up2.png"/>
+    <sprite name="BHup3" file="Images\\blueUnit\\Heavy\\up3.png"/>
+
+    <sprite name="BHdown0" file="Images\\blueUnit\\Heavy\\down0.png"/>
+    <sprite name="BHdown1" file="Images\\blueUnit\\Heavy\\down1.png"/>
+    <sprite name="BHdown2" file="Images\\blueUnit\\Heavy\\down2.png"/>
+    <sprite name="BHdown3" file="Images\\blueUnit\\Heavy\\down3.png"/>
+
+    <sprite name="BHmoved0" file="Images\\blueUnit\\Heavy\\moved0.png"/>
+    <sprite name="BHmoved1" file="Images\\blueUnit\\Heavy\\moved1.png"/>
+
+    <!-- blue tank -->
+    <sprite name="BTidle0" file="Images\\blueUnit\\Tank\\idle0.png"/>
+    <sprite name="BTidle1" file="Images\\blueUnit\\Tank\\idle1.png"/>
+    <sprite name="BTidle2" file="Images\\blueUnit\\Tank\\idle2.png"/>
+
+    <sprite name="BTright0" file="Images\\blueUnit\\Tank\\right0.png"/>
+    <sprite name="BTright1" file="Images\\blueUnit\\Tank\\right1.png"/>
+    <sprite name="BTright2" file="Images\\blueUnit\\Tank\\right2.png"/>
+
+    <sprite name="BTleft0" file="Images\\blueUnit\\Tank\\left0.png"/>
+    <sprite name="BTleft1" file="Images\\blueUnit\\Tank\\left1.png"/>
+    <sprite name="BTleft2" file="Images\\blueUnit\\Tank\\left2.png"/>
+
+    <sprite name="BTup0" file="Images\\blueUnit\\Tank\\up0.png"/>
+    <sprite name="BTup1" file="Images\\blueUnit\\Tank\\up1.png"/>
+    <sprite name="BTup2" file="Images\\blueUnit\\Tank\\up2.png"/>
+
+    <sprite name="BTdown0" file="Images\\blueUnit\\Tank\\down0.png"/>
+    <sprite name="BTdown1" file="Images\\blueUnit\\Tank\\down1.png"/>
+    <sprite name="BTdown2" file="Images\\blueUnit\\Tank\\down2.png"/>
+
+    <sprite name="BTmoved0" file="Images\\blueUnit\\Tank\\moved0.png"/>
+    <sprite name="BTmoved1" file="Images\\blueUnit\\Tank\\moved1.png"/>
+    <sprite name="BTmoved2" file="Images\\blueUnit\\Tank\\moved2.png"/>
+
+    <!-- red units -->
+    <!-- red soldier -->
+    <sprite name="RSidle0" file="Images\\redUnit\\Soldier\\idle0.png"/>
+    <sprite name="RSidle1" file="Images\\redUnit\\Soldier\\idle1.png"/>
+    <sprite name="RSidle2" file="Images\\redUnit\\Soldier\\idle2.png"/>
+    <sprite name="RSidle3" file="Images\\redUnit\\Soldier\\idle3.png"/>
+    
+    <sprite name="RSright0" file="Images\\redUnit\\Soldier\\right0.png"/>
+    <sprite name="RSright1" file="Images\\redUnit\\Soldier\\right1.png"/>
+    <sprite name="RSright2" file="Images\\redUnit\\Soldier\\right2.png"/>
+    <sprite name="RSright3" file="Images\\redUnit\\Soldier\\right3.png"/>
+
+    <sprite name="RSleft0" file="Images\\redUnit\\Soldier\\left0.png"/>
+    <sprite name="RSleft1" file="Images\\redUnit\\Soldier\\left1.png"/>
+    <sprite name="RSleft2" file="Images\\redUnit\\Soldier\\left2.png"/>
+    <sprite name="RSleft3" file="Images\\redUnit\\Soldier\\left3.png"/>
+
+    <sprite name="RSup0" file="Images\\redUnit\\Soldier\\up0.png"/>
+    <sprite name="RSup1" file="Images\\redUnit\\Soldier\\up1.png"/>
+    <sprite name="RSup2" file="Images\\redUnit\\Soldier\\up2.png"/>
+    <sprite name="RSup3" file="Images\\redUnit\\Soldier\\up3.png"/>
+
+    <sprite name="RSdown0" file="Images\\redUnit\\Soldier\\down0.png"/>
+    <sprite name="RSdown1" file="Images\\redUnit\\Soldier\\down1.png"/>
+    <sprite name="RSdown2" file="Images\\redUnit\\Soldier\\down2.png"/>
+    <sprite name="RSdown3" file="Images\\redUnit\\Soldier\\down3.png"/>
+    
+    <sprite name="RSmoved0" file="Images\\redUnit\\Soldier\\moved0.png"/>
+    <sprite name="RSmoved1" file="Images\\redUnit\\Soldier\\moved1.png"/>
+    <sprite name="RSmoved2" file="Images\\redUnit\\Soldier\\moved2.png"/>
+    <sprite name="RSmoved3" file="Images\\redUnit\\Soldier\\moved3.png"/>
+
+    <!-- red heavy soldier -->
+    <sprite name="RHidle0" file="Images\\redUnit\\Heavy\\idle0.png"/>
+    <sprite name="RHidle1" file="Images\\redUnit\\Heavy\\idle1.png"/>
+
+    <sprite name="RHright0" file="Images\\redUnit\\Heavy\\right0.png"/>
+    <sprite name="RHright1" file="Images\\redUnit\\Heavy\\right1.png"/>
+    <sprite name="RHright2" file="Images\\redUnit\\Heavy\\right2.png"/>
+    <sprite name="RHright3" file="Images\\redUnit\\Heavy\\right3.png"/>
+
+    <sprite name="RHleft0" file="Images\\redUnit\\Heavy\\left0.png"/>
+    <sprite name="RHleft1" file="Images\\redUnit\\Heavy\\left1.png"/>
+    <sprite name="RHleft2" file="Images\\redUnit\\Heavy\\left2.png"/>
+    <sprite name="RHleft3" file="Images\\redUnit\\Heavy\\left3.png"/>
+
+    <sprite name="RHup0" file="Images\\redUnit\\Heavy\\up0.png"/>
+    <sprite name="RHup1" file="Images\\redUnit\\Heavy\\up1.png"/>
+    <sprite name="RHup2" file="Images\\redUnit\\Heavy\\up2.png"/>
+    <sprite name="RHup3" file="Images\\redUnit\\Heavy\\up3.png"/>
+
+    <sprite name="RHdown0" file="Images\\redUnit\\Heavy\\down0.png"/>
+    <sprite name="RHdown1" file="Images\\redUnit\\Heavy\\down1.png"/>
+    <sprite name="RHdown2" file="Images\\redUnit\\Heavy\\down2.png"/>
+    <sprite name="RHdown3" file="Images\\redUnit\\Heavy\\down3.png"/>
+
+    <sprite name="RHmoved0" file="Images\\redUnit\\Heavy\\moved0.png"/>
+    <sprite name="RHmoved1" file="Images\\redUnit\\Heavy\\moved1.png"/>
+
+    <!-- red tank -->
+    <sprite name="RTidle0" file="Images\\redUnit\\Tank\\idle0.png"/>
+    <sprite name="RTidle1" file="Images\\redUnit\\Tank\\idle1.png"/>
+    <sprite name="RTidle2" file="Images\\redUnit\\Tank\\idle2.png"/>
+
+    <sprite name="RTright0" file="Images\\redUnit\\Tank\\right0.png"/>
+    <sprite name="RTright1" file="Images\\redUnit\\Tank\\right1.png"/>
+    <sprite name="RTright2" file="Images\\redUnit\\Tank\\right2.png"/>
+
+    <sprite name="RTleft0" file="Images\\redUnit\\Tank\\left0.png"/>
+    <sprite name="RTleft1" file="Images\\redUnit\\Tank\\left1.png"/>
+    <sprite name="RTleft2" file="Images\\redUnit\\Tank\\left2.png"/>
+
+    <sprite name="RTup0" file="Images\\redUnit\\Tank\\up0.png"/>
+    <sprite name="RTup1" file="Images\\redUnit\\Tank\\up1.png"/>
+    <sprite name="RTup2" file="Images\\redUnit\\Tank\\up2.png"/>
+
+    <sprite name="RTdown0" file="Images\\redUnit\\Tank\\down0.png"/>
+    <sprite name="RTdown1" file="Images\\redUnit\\Tank\\down1.png"/>
+    <sprite name="RTdown2" file="Images\\redUnit\\Tank\\down2.png"/>
+
+    <sprite name="RTmoved0" file="Images\\redUnit\\Tank\\moved0.png"/>
+    <sprite name="RTmoved1" file="Images\\redUnit\\Tank\\moved1.png"/>
+    <sprite name="RTmoved2" file="Images\\redUnit\\Tank\\moved2.png"/>
+
+    <!-- Arrow -->
+    <sprite name ="downA" file="Images\\Arrow\\downA.png"/>
+    <sprite name ="downButt" file="Images\\Arrow\\downButt.png"/>
+    <sprite name ="horz" file="Images\\Arrow\\horz.png"/>
+    <sprite name ="leftA" file="Images\\Arrow\\leftA.png"/>
+    <sprite name ="leftButt" file="Images\\Arrow\\leftButt.png"/>
+    <sprite name ="leftDown" file="Images\\Arrow\\leftDown.png"/>
+    <sprite name ="leftUp" file="Images\\Arrow\\leftUp.png"/>
+    <sprite name ="rightA" file="Images\\Arrow\\rightA.png"/>
+    <sprite name ="rightButt" file="Images\\Arrow\\rightButt.png"/>
+    <sprite name ="rightDown" file="Images\\Arrow\\rightDown.png"/>
+    <sprite name ="rightUp" file="Images\\Arrow\\rightUp.png"/>
+    <sprite name ="upA" file="Images\\Arrow\\upA.png"/>
+    <sprite name ="upButt" file="Images\\Arrow\\upButt.png"/>
+    <sprite name ="vert" file="Images\\Arrow\\vert.png"/>
+
+    <!-- map tiles -->
+    <sprite name ="blueBase" file="Images\\Map\\blueBase.png"/>
+    <sprite name ="redBase" file="Images\\Map\\redBase.png"/>
+    <sprite name ="grass0" file="Images\\Map\\grass0.png"/>
+    <sprite name ="grass1" file="Images\\Map\\grass1.png"/>
+    <sprite name ="mountain0" file="Images\\Map\\mountain0.png"/>
+    <sprite name ="mountain1" file="Images\\Map\\mountain1.png"/>
+    <sprite name ="mountain2" file="Images\\Map\\mountain2.png"/>
+    <sprite name ="mountain3" file="Images\\Map\\mountain3.png"/>
+    <sprite name ="mountain4" file="Images\\Map\\mountain4.png"/>
+    <sprite name ="mountain5" file="Images\\Map\\mountain5.png"/>
+    <sprite name ="river0" file="Images\\Map\\river0.png"/>
+    <sprite name ="river1" file="Images\\Map\\river1.png"/>
+    <sprite name ="river2" file="Images\\Map\\river2.png"/>
+    <sprite name ="road0" file="Images\\Map\\road0.png"/>
+    <sprite name ="road1" file="Images\\Map\\road1.png"/>
+    <sprite name ="road2" file="Images\\Map\\road2.png"/>
+    <sprite name ="road3" file="Images\\Map\\road3.png"/>
+    <sprite name ="road4" file="Images\\Map\\road4.png"/>
+    <sprite name ="road5" file="Images\\Map\\road5.png"/>
+    <sprite name ="road6" file="Images\\Map\\road6.png"/>
+    <sprite name ="road7" file="Images\\Map\\road7.png"/>
+    <sprite name ="road8" file="Images\\Map\\road8.png"/>
+    <sprite name ="road9" file="Images\\Map\\road9.png"/>
+    <sprite name ="road10" file="Images\\Map\\road10.png"/>
+    <sprite name ="tree0" file="Images\\Map\\tree0.png"/>
+    <sprite name ="tree1" file="Images\\Map\\tree1.png"/>
+    <sprite name ="greyWallpaper" file ="Images\\Map\\wallpaper.png"/>
+
+    <!-- red map tiles -->
+    <sprite name ="blueBase_r" file="Images\\Red\\blueBase_r.png"/>
+    <sprite name ="redBase_r" file="Images\\Red\\redBase_r.png"/>
+    <sprite name ="grass0_r" file="Images\\Red\\grass0_r.png"/>
+    <sprite name ="grass1_r" file="Images\\Red\\grass1_r.png"/>
+    <sprite name ="mountain0_r" file="Images\\Red\\mountain0_r.png"/>
+    <sprite name ="mountain1_r" file="Images\\Red\\mountain1_r.png"/>
+    <sprite name ="mountain2_r" file="Images\\Red\\mountain2_r.png"/>
+    <sprite name ="mountain3_r" file="Images\\Red\\mountain3_r.png"/>
+    <sprite name ="mountain4_r" file="Images\\Red\\mountain4_r.png"/>
+    <sprite name ="mountain5_r" file="Images\\Red\\mountain5_r.png"/>
+    <sprite name ="river0_r" file="Images\\Red\\river0_r.png"/>
+    <sprite name ="river1_r" file="Images\\Red\\river1_r.png"/>
+    <sprite name ="river2_r" file="Images\\Red\\river2_r.png"/>
+    <sprite name ="road0_r" file="Images\\Red\\road0_r.png"/>
+    <sprite name ="road1_r" file="Images\\Red\\road1_r.png"/>
+    <sprite name ="road2_r" file="Images\\Red\\road2_r.png"/>
+    <sprite name ="road3_r" file="Images\\Red\\road3_r.png"/>
+    <sprite name ="road4_r" file="Images\\Red\\road4_r.png"/>
+    <sprite name ="road5_r" file="Images\\Red\\road5_r.png"/>
+    <sprite name ="road6_r" file="Images\\Red\\road6_r.png"/>
+    <sprite name ="road7_r" file="Images\\Red\\road7_r.png"/>
+    <sprite name ="road8_r" file="Images\\Red\\road8_r.png"/>
+    <sprite name ="road9_r" file="Images\\Red\\road9_r.png"/>
+    <sprite name ="road10_r" file="Images\\Red\\road10_r.png"/>
+    <sprite name ="tree0_r" file="Images\\Red\\tree0_r.png"/>
+    <sprite name ="tree1_r" file="Images\\Red\\tree1_r.png"/>
+    <sprite name ="redWallpaper" file ="Images\\red\\wallpaper_r.png"/>
+
+    <!-- blue map tiles -->
+    <sprite name ="blueBase_b" file="Images\\Blue\\blueBase_b.png"/>
+    <sprite name ="redBase_b" file="Images\\Blue\\redBase_b.png"/>
+    <sprite name ="grass0_b" file="Images\\Blue\\grass0_b.png"/>
+    <sprite name ="grass1_b" file="Images\\Blue\\grass1_b.png"/>
+    <sprite name ="mountain0_b" file="Images\\Blue\\mountain0_b.png"/>
+    <sprite name ="mountain1_b" file="Images\\Blue\\mountain1_b.png"/>
+    <sprite name ="mountain2_b" file="Images\\Blue\\mountain2_b.png"/>
+    <sprite name ="mountain3_b" file="Images\\Blue\\mountain3_b.png"/>
+    <sprite name ="mountain4_b" file="Images\\Blue\\mountain4_b.png"/>
+    <sprite name ="mountain5_b" file="Images\\Blue\\mountain5_b.png"/>
+    <sprite name ="river0_b" file="Images\\Blue\\river0_b.png"/>
+    <sprite name ="river1_b" file="Images\\Blue\\river1_b.png"/>
+    <sprite name ="river2_b" file="Images\\Blue\\river2_b.png"/>
+    <sprite name ="road0_b" file="Images\\Blue\\road0_b.png"/>
+    <sprite name ="road1_b" file="Images\\Blue\\road1_b.png"/>
+    <sprite name ="road2_b" file="Images\\Blue\\road2_b.png"/>
+    <sprite name ="road3_b" file="Images\\Blue\\road3_b.png"/>
+    <sprite name ="road4_b" file="Images\\Blue\\road4_b.png"/>
+    <sprite name ="road5_b" file="Images\\Blue\\road5_b.png"/>
+    <sprite name ="road6_b" file="Images\\Blue\\road6_b.png"/>
+    <sprite name ="road7_b" file="Images\\Blue\\road7_b.png"/>
+    <sprite name ="road8_b" file="Images\\Blue\\road8_b.png"/>
+    <sprite name ="road9_b" file="Images\\Blue\\road9_b.png"/>
+    <sprite name ="road10_b" file="Images\\Blue\\road10_b.png"/>
+    <sprite name ="tree0_b" file="Images\\Blue\\tree0_b.png"/>
+    <sprite name ="tree1_b" file="Images\\Blue\\tree1_b.png"/>
+    <sprite name ="blueWallpaper" file ="Images\\blue\\wallpaper_b.png"/>
+  </sprites>
+
+  <!-- sound -->
+
+  <sounds level="0">
+    <sound file="Sounds\\thump.wav" instances="4"/>
+    <sound file="Sounds\\boing.wav" instances="4"/>
+    <sound file="Sounds\\ow.wav" instances="1"/>
+
+    <sound file="Sounds\\BloodCrystal.wav" instances="1"/>
+    <sound file="Sounds\\gameOver.wav" instances="1"/>
+    <sound file="Sounds\\title.wav" instances="1"/>
+    <sound file="Sounds\\Walk.wav" instances="1"/>
+    <sound file="Sounds\\Tank.wav" instances="1"/>
+    <sound file="Sounds\\Shot.wav" instances="20"/>
+    <sound file="Sounds\\Bomb.wav" instances="1"/>
+  </sounds>
+
+  <!-- debugger settings -->
+
+  <debug linenumber="1" header="1">
+    <file select="1" name="debug.txt"/>
+    <debugger select="0"/>
+    <ip select="1" address="127.0.0.1" port="1617"/>
+  </debug>
+
+</settings>

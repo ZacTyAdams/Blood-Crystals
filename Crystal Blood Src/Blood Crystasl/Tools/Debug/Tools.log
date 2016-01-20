@@ -1,0 +1,20 @@
+﻿Build started 12/10/2014 2:28:21 PM.
+     1>Project "C:\Users\Zac\Documents\Game Programming Repo\4210.0\Game Programing\Blood Crystasl\Tools\Tools.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\DirectXTK\Inc /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt IPMgr.cpp abort.cpp debug.cpp tinyxml2.cpp
+         tinyxml2.cpp
+         debug.cpp
+         abort.cpp
+         IPMgr.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Zac\Documents\Game Programming Repo\4210.0\Game Programing\Blood Crystasl\Tools\Debug\Tools.lib" /NOLOGO Debug\abort.obj
+         Debug\debug.obj
+         Debug\IPMgr.obj
+         Debug\tinyxml2.obj
+         Tools.vcxproj -> C:\Users\Zac\Documents\Game Programming Repo\4210.0\Game Programing\Blood Crystasl\Tools\Debug\Tools.lib
+     1>Done Building Project "C:\Users\Zac\Documents\Game Programming Repo\4210.0\Game Programing\Blood Crystasl\Tools\Tools.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.85

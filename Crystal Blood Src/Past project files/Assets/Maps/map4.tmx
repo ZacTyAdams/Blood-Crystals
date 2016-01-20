@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="Advance Wars Tile Set" tilewidth="64" tileheight="64" margin="1">
+  <image source="Advance Wars Tile Set.png" width="2048" height="960"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJy9llsKwjAQReNjHTrYRbS6ELX7X4aCjh+BEjqvO40fl0DD9ORkktJxV8qV8/zjOHFunH3xhxYjBeqW+THnIPfAOSa5M+B74QwJJuo7NPud8ZXOwCSsycMclXNl+WpzVn+t92r9befWOBLbei/qa7G39I30N+P7Djp6a5H7G3FGfXsws76ZIL7V9cMp4JozvieuO4O1aH+zQXzJ+Szj+3Ky17hSrcdXmyOD2/v7LO1xr+8zKcxevhov4iv9bzwCZ71dyz3xvxGJZw+8/fUwPL2O9tfiRlhb+aJM1DfLrL7auesx1nvyBQoiPiY=
+  </data>
+ </layer>
+</map>
